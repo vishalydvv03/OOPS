@@ -12,7 +12,7 @@ namespace Inheritance
         public string LastName;
         public string Email;
 
-        public void PrintFullName()
+        public virtual void PrintFullName()
         {
             Console.WriteLine("Your Name is " + FirstName + " " + LastName);
         }
@@ -30,6 +30,12 @@ namespace Inheritance
     {
         public string Business;
 
+        public override void PrintFullName()
+        {
+            Console.WriteLine("Hello This is " +FirstName);
+
+        }
+
     }
 
     class Program
@@ -46,6 +52,11 @@ namespace Inheritance
             Console.WriteLine(dev.Project);
 
             Analyst analyst = new Analyst();
+
+            analyst.FirstName = "Rishi";
+
+            analyst.PrintFullName();
+            
             analyst.Business = "Generating Insights";
             Console.WriteLine(analyst.Business);
             
