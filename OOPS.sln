@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstraction", "Abstraction\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Parameters", "Parameters\Parameters.csproj", "{5A285DB9-C1A8-4043-BED2-9C674B306F31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{B1DEA78C-75A3-41DF-BEC5-D589E4AC7233}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{5A285DB9-C1A8-4043-BED2-9C674B306F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A285DB9-C1A8-4043-BED2-9C674B306F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A285DB9-C1A8-4043-BED2-9C674B306F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1DEA78C-75A3-41DF-BEC5-D589E4AC7233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1DEA78C-75A3-41DF-BEC5-D589E4AC7233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1DEA78C-75A3-41DF-BEC5-D589E4AC7233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1DEA78C-75A3-41DF-BEC5-D589E4AC7233}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
